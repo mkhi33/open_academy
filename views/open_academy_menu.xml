@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <!-- Ménu principal-->
+    <menuitem 
+        id="main_menu_open_academy"
+        name="Open Academy" 
+        sequence="10"
+    />
+    <menuitem 
+        id="menu_open_academy"
+        name="Open Academy" 
+        parent="main_menu_open_academy"
+        sequence="10"
+    />
+
+    <menuitem 
+        id="menu_course" 
+        parent="menu_open_academy" 
+        name="Courses" 
+        sequence="1" 
+        action="action_list_course"
+    />
+
+</odoo>
