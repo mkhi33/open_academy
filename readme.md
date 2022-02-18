@@ -102,4 +102,9 @@ Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/19.png "Cursos")
   ![Texto Alternativo]([img1]:../../screenshots/20.png "Sessiones")
 
+# Ejercicio 10: Relaciones inversas uno a muchos
+`Usando el campo relacional inverso one2many, modifique los modelos para reflejar la relación entre cursos y sesiones.`
+
+Resultado: 
+  ![Texto Alternativo]([img1]:../../screenshots/21.png "Cursos")
 

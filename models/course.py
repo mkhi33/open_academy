@@ -12,5 +12,6 @@ class open_academy(models.Model):
     description = fields.Text(string='Description')
 
     responsible_id = fields.Many2one('res.users', ondelete='set null', string="Responsable", index=True)
+    
     session_ids = fields.One2many('open_academy.session', 'course_id', string='Sessions')
 

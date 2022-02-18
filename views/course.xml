@@ -43,12 +43,18 @@
                         </group>
                         
                         <notebook>
-                            <page string="Description">
-                                <field name="description"/>
+                            <page string="Description" name="description">
+                                <field name="description" placeholder="una breve descripción.."/>
                             </page>
-                            <page string="About">
-                                Este es un ejemplo de los Notebooks
+                            <page string="Sessions">
+                                <field name="session_ids">
+                                    <tree string="Registered sessions">
+                                        <field name="name"/>
+                                        <field name="instructor_id"/>
+                                    </tree>
+                                </field>
                             </page>
+
                         </notebook>
                         
                     </sheet>
