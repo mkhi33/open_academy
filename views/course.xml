@@ -56,6 +56,19 @@
             </field>
         </record>
 
+        <!-- open_academy.course search view -->
+        <record id="open_academy.course_view_search" model="ir.ui.view">
+            <field name="name">open_academy.course.view.search</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <search string="Search Description">
+                    <!-- Add your fields here -->
+                    <field name="name"/>
+                    <field name="description"/>
+                </search>
+            </field>
+        </record>
+
         
     </data>
 </odoo>

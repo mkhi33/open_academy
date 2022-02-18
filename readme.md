@@ -73,7 +73,10 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
 ## Ejercicio 6: Notebooks
 `En la vista de formulario del curso, coloque el campo de descripción debajo de una pestaña, de modo que sea más fácil agregar otras pestañas más adelante, que contengan información adicional.`
 
-  ![Texto Alternativo]([img1]:../../screenshots/16.png "Utilizando los notebooks")
+  ![Texto Alternativo]([img1]:../../screenshots/15.png "Utilizando los notebooks")
   
+## Ejercicio 7: Buscar Cursos
+`Permitir la búsqueda de cursos en función de su título o su descripción.`
+  ![Texto Alternativo]([img1]:../../screenshots/16.png "Agregando un buscador por Descripción y Nombre")
 
     
