@@ -69,6 +69,11 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
 
   ![Texto Alternativo]([img1]:../../screenshots/13.png "Creando una vista personalizada del formulario")
   ![Texto Alternativo]([img1]:../../screenshots/14.png "Creando una vista personalizada del formulario")
+
+## Ejercicio 6: Notebooks
+`En la vista de formulario del curso, coloque el campo de descripción debajo de una pestaña, de modo que sea más fácil agregar otras pestañas más adelante, que contengan información adicional.`
+
+  ![Texto Alternativo]([img1]:../../screenshots/16.png "Utilizando los notebooks")
   
 
     
