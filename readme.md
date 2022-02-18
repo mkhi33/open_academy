@@ -108,3 +108,8 @@ Resultado:
 Resultado: 
   ![Texto Alternativo]([img1]:../../screenshots/21.png "Cursos")
 
+# Ejercicio 11: Relaciones Many2Many múltiples
+  Utilizando el campo relacional Many2Many, modifica el modelo de Session para relacionar cada sesión a un conjunto de asistentes (attendees). Los asistentes estarán representados por los registros partners, por lo que se relacionan con el modelo res.partner. Adapta las vistas en consecuencia.
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/22.png "Cursos")
