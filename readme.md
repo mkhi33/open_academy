@@ -68,6 +68,7 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
 `Cree su propia vista de formulario para el objeto Curso. Los datos mostrados deben ser: el nombre y la descripción del curso.`
 
   ![Texto Alternativo]([img1]:../../screenshots/13.png "Creando una vista personalizada del formulario")
+  ![Texto Alternativo]([img1]:../../screenshots/14.png "Creando una vista personalizada del formulario")
   
 
     
