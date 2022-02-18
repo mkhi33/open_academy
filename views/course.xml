@@ -29,22 +29,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <!-- open_academy.course form view -->
-        <record id="open_academy.course_view_form" model="ir.ui.view">
-            <field name="name">open_academy.course.view.form</field>
-            <field name="model">open_academy.course</field>
-            <field name="arch" type="xml">
-                <form string="">
-                    <sheet>
-                        <group>
-                            <!-- Add your fields here -->
-                            <field name="name"/>
-                            <field name="description"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
+
 
         
     </data>
