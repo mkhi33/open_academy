@@ -1,0 +1,51 @@
+<odoo>
+    <data>
+    <!--
+        Definir datos de demostración
+        Cree datos de demostración llenando el modelo de Cursos con algunos cursos de demostración.
+    -->
+
+        <record id="open_academy.course1" model="open_academy.course">
+            <field name="name">Curso 1</field>
+            <field name="description">Este es el primer curso</field>
+        </record>
+        <record id="open_academy.course2" model="open_academy.course">
+            <field name="name">Curso 2</field>
+            <field name="description">Este es el segundo curso</field>
+        </record>
+        <record id="open_academy.course3" model="open_academy.course">
+            <field name="name">Curso 3</field>
+            <field name="description">Este es el tercer curso</field>
+        </record>
+        <record id="open_academy.course4" model="open_academy.course">
+            <field name="name">Curso 4</field>
+            <field name="description">Este es el cuarto curso</field>
+        </record>
+
+    
+        <record model="ir.actions.act_window" id="action_list_course">
+            <field name="name">Courses</field>
+            <field name="res_model">open_academy.course</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- open_academy.course form view -->
+        <record id="open_academy.course_view_form" model="ir.ui.view">
+            <field name="name">open_academy.course.view.form</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <!-- Add your fields here -->
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        
+    </data>
+</odoo>
