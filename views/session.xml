@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <!-- open_academy.session form view -->
+    <record id="open_academy.session_view_form" model="ir.ui.view">
+        <field name="name">open_academy.session.view.form</field>
+        <field name="model">open_academy.session</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <!-- Add your fields here -->
+                            <field name="name"/>
+                            <field name="start_date"/>
+                            <field name="duration"/>
+                            <field name="seats"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+    <record model="ir.actions.act_window" id="action_list_session">
+        <field name="name">Sessions</field>
+        <field name="res_model">open_academy.session</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+</odoo>

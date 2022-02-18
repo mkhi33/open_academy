@@ -28,6 +28,7 @@
         'views/views.xml',
         'views/templates.xml',
         'views/course.xml',
+        'views/session.xml',
         'views/open_academy_menu.xml',
     ],
     # only loaded in demonstration mode

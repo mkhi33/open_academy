@@ -22,4 +22,11 @@
         action="action_list_course"
     />
 
+    <menuitem 
+        id="menu_session" 
+        name="Sessions"
+        parent="menu_open_academy"
+        action="action_list_session"
+    />
+
 </odoo>

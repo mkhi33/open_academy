@@ -79,4 +79,12 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
 `Permitir la búsqueda de cursos en función de su título o su descripción.`
   ![Texto Alternativo]([img1]:../../screenshots/16.png "Agregando un buscador por Descripción y Nombre")
 
-    
+## Ejercicio 8: Crear un modelo de sesión
+`Para el módulo Open Academy, consideramos un modelo para sesiones : una sesión es una ocurrencia de un curso impartido en un momento dado para una audiencia determinada.`
+
+`Crear un modelo para las sesiones . Una sesión tiene un nombre, una fecha de inicio, una duración y un número de asientos. Agregue una acción y un elemento de menú para mostrarlos. Haga que el nuevo modelo sea visible a través de un elemento de menú.`
+
+- Resultado: 
+  ![Texto Alternativo]([img1]:../../screenshots/17.png "Mostrando el menú session")
+  ![Texto Alternativo]([img1]:../../screenshots/18.png "Mostrando la vista del modelo session")
+
