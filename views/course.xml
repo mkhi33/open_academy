@@ -39,7 +39,7 @@
                         <group>
                             <!-- Add your fields here -->
                             <field name="name"/>
-                            <field name="description"/>
+                            <field name="responsible_id"/>
                         </group>
                         
                         <notebook>
@@ -66,6 +66,19 @@
                     <field name="name"/>
                     <field name="description"/>
                 </search>
+            </field>
+        </record>
+
+        <!-- open_academy.course tree view -->
+        <record id="open_academy.course_view_tree" model="ir.ui.view">
+            <field name="name">open_academy.course.view.tree</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <tree string="Course Tree">
+                    <!-- Add your fields here -->
+                    <field name="name"/>
+                    <field name="responsible_id"/>
+                </tree>
             </field>
         </record>
 

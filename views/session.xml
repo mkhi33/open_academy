@@ -6,9 +6,15 @@
         <field name="name">open_academy.session.view.form</field>
         <field name="model">open_academy.session</field>
         <field name="arch" type="xml">
-            <form string="">
+            <form string="Session Form">
                 <sheet>
-                    <group>
+                    <group string="General">
+                        <!-- Add your fields here -->
+                            <field name="course_id"/>
+                            <field name="name"/>
+                            <field name="instructor_id"/>
+                    </group>
+                    <group string="Schedule">
                         <!-- Add your fields here -->
                             <field name="name"/>
                             <field name="start_date"/>
@@ -17,6 +23,19 @@
                     </group>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+    <!-- open_academy.session tree view -->
+    <record id="open_academy.session_view_tree" model="ir.ui.view">
+        <field name="name">open_academy.session.view.tree</field>
+        <field name="model">open_academy.session</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- Add your fields here -->
+                <field name="name"/>
+                <field name="course_id"/>
+            </tree>
         </field>
     </record>
 

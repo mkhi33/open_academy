@@ -88,3 +88,18 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
   ![Texto Alternativo]([img1]:../../screenshots/17.png "Mostrando el menú session")
   ![Texto Alternativo]([img1]:../../screenshots/18.png "Mostrando la vista del modelo session")
 
+## Ejercicio 9: Relaciones muchos a uno
+`Usando many2one, modifique los modelos Course y Session para reflejar su relación con otros modelos:`
+- Un curso tiene un usuario responsable ; el valor de ese campo es un registro del modelo incorporado res.users.
+
+- Una sesión tiene un instructor ; el valor de ese campo es un registro del modelo incorporado res.partner.
+
+- Una sesión está relacionada con un curso ; el valor de ese campo es un registro del modelo openacademy.coursey es obligatorio.
+
+- Adaptar las vistas.
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/19.png "Cursos")
+  ![Texto Alternativo]([img1]:../../screenshots/20.png "Sessiones")
+
+
