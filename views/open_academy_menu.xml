@@ -29,4 +29,10 @@
         action="action_list_session"
     />
 
+
+    <menuitem 
+        id="menu_partner" name="Partner"
+        action="action_list_partner"
+    />
+
 </odoo>

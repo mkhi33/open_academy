@@ -113,3 +113,15 @@ Resultado:
 
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/22.png "Cursos")
+
+# Ejercicio 12: Alterar el contenido existente
+- Usando la herencia del modelo, modifique el modelo de socio existente para agregar un instructorcampo booleano y un campo many2many que corresponda a la relación sesión-socio
+
+- Usando la herencia de vista, muestre estos campos en la vista de formulario de socio
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/23.png "Cursos")
+
+# Ejercicio 13: Dominios en campos relacionales
+
+Al seleccionar el instructor para una sesión , solo deben estar visibles los instructores (socios con instructorel valor establecido en ).True
