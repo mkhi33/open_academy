@@ -222,4 +222,14 @@ Resultado:
 
       La vista de Gantt requiere el módulo web_gantt que está presente en la versión de edición empresarial .
 
+# Ejercicio 25: Vistas en Gráfico
 
+- Agrega una vista de gráfico en el objeto Session que muestre, para cada curso, el número de participantes bajo la forma de un gráfico de barras.
+
+- Agrega el número de asistentes como un campo calculado almacenado
+
+- Luego añade la vista relevante
+  
+Resultado:
+
+![Texto Alternativo]([img1]:../../screenshots/41.png "Mostrando un gráfico")
