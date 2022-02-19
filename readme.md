@@ -250,3 +250,12 @@ Resultado:
 ![Texto Alternativo]([img1]:../../screenshots/43.png "Creando usuario")
 ![Texto Alternativo]([img1]:../../screenshots/43.png "Creando grupo y asignando permisos")
 ![Texto Alternativo]([img1]:../../screenshots/44.png "Agregando el usuario al grupo")
+
+# Ejercicio 28: Añade el control de acceso a través de los archivos de datos en el módulo
+
+- Utilizando archivos de datos, Cree un grupo OpenAcademy / Manager con acceso completo a todos los modelos de OpenAcademy
+
+- Hacer que la sesión y el curso sean legibles para todos los usuarios
+
+Resultado:
+![Texto Alternativo]([img1]:../../screenshots/45.png "Utilizando seguridad")
