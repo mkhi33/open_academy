@@ -259,3 +259,10 @@ Resultado:
 
 Resultado:
 ![Texto Alternativo]([img1]:../../screenshots/45.png "Utilizando seguridad")
+
+# Ejercicio 29: Regla de registro
+
+Agrega una regla de registro para el Curso modelo y el grupo «OpenAcademy / Manager», que restringe writey unlinkaccede a los responsables de un curso. Si un curso no tiene responsable, todos los usuarios del grupo deben poder modificarlo.
+
+Resultado: 
+![Texto Alternativo]([img1]:../../screenshots/46.png "Creando una nueva regla de registro")
