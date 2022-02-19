@@ -192,3 +192,10 @@ Vuelva a implementar su propio método de «copia» que permite duplicar el obje
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/36.png "Implementando un metodo de copia personalizado para los cursos")
 
+# Ejercicio 21: Lista para colorear
+
+Modifique la vista de árbol de sesión de tal manera que las sesiones que duren menos de 5 días se coloreen de azul y las que duren más de 15 días se coloreen de rojo.
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/37.png "Cambiando color a una sesión segun su duración")
+  ![Texto Alternativo]([img1]:../../screenshots/38.png "Cambiando color a una sesión segun su duración")

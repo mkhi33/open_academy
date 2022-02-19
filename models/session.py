@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
+from ast import Store
+from datetime import timedelta
 from email.policy import default
 from importlib.metadata import files
 import string
 from odoo import models, fields, api, exceptions
-
 
 class open_academy(models.Model):
     _name = 'open_academy.session'
