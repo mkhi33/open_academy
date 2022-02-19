@@ -214,4 +214,12 @@ Resultado:
   Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/40.png "Cambiando color a una sesión segun su duración")
 
+# Ejercicio 24: diagramas de Gantt
+
+Agregue un diagrama de Gantt que le permita al usuario ver la programación de sesiones vinculada al módulo Open Academy. Las sesiones deben agruparse por instructor.
+
+Resultado:
+
+      La vista de Gantt requiere el módulo web_gantt que está presente en la versión de edición empresarial .
+
 
