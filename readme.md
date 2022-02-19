@@ -199,3 +199,8 @@ Modifique la vista de árbol de sesión de tal manera que las sesiones que duren
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/37.png "Cambiando color a una sesión segun su duración")
   ![Texto Alternativo]([img1]:../../screenshots/38.png "Cambiando color a una sesión segun su duración")
+
+# Ejercicio 22: Vista de calendario
+
+Agregue una vista de calendario al modelo de sesión que permita al usuario ver los eventos asociados a Open Academy.
+  ![Texto Alternativo]([img1]:../../screenshots/38.png "Cambiando color a una sesión segun su duración")

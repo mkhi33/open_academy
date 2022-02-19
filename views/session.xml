@@ -49,13 +49,23 @@
         </field>
     </record>
     
-    
+    <!-- open_academy.session calendar view -->
+    <record id="open_academy.session_view_calendar" model="ir.ui.view">
+        <field name="name">open_academy.session.view.calendar</field>
+        <field name="model">open_academy.session</field>
+        <field name="arch" type="xml">
+            <calendar string="Session Calendar" date_start="start_date" date_stop="end_date" color="instructor_id">
+                <!-- Add your fields here -->
+                <field name="name"/>
+            </calendar>
+        </field>
+    </record>
 
 
     <record model="ir.actions.act_window" id="action_list_session">
         <field name="name">Sessions</field>
         <field name="res_model">open_academy.session</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">tree,form,calendar</field>
     </record>
     
 </odoo>

@@ -22,6 +22,28 @@ class open_academy(models.Model):
     attendee_ids = fields.Many2many('res.partner', string="Attendees")
 
     taken_seats = fields.Float(string="Taken Seats", compute="_taken_seats" )
+
+    end_date = fields.Date(string="End Date", Store=True, compute="_get_end_date", inverse="_set_end_date")
+    
+    @api.depends('start_date', 'duration')
+    def _get_end_date(self):
+        for item in self:
+            if not (item.start_date and item.duration):
+                item.end_date = item.start_date
+                continue
+            start = fields.Datetime.from_string(item.start_date)
+            duration = timedelta(days=item.duration, seconds=-1)
+            item.end_date = start + duration
+    
+    def _set_end_date(self):
+        for item in self:
+            if not (item.start_date and item.end_date):
+                continue
+            start_date = fields.Datetime.from_string(item.start_date)
+            end_date = fields.Datetime.from_string(item.end_date)
+            item.duration = (end_date - start_date).days + 1
+
+
     @api.depends('seats', 'attendee_ids')
     def _taken_seats(self):
         for item in self:
