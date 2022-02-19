@@ -233,3 +233,10 @@ Resultado:
 Resultado:
 
 ![Texto Alternativo]([img1]:../../screenshots/41.png "Mostrando un gráfico")
+
+# Ejercicio 26: Vista Kanban
+
+- Agregue una vista Kanban que muestre las sesiones agrupadas por curso (por lo tanto, las columnas son cursos).
+  
+Resultado:
+![Texto Alternativo]([img1]:../../screenshots/42.png "Mostrando un kanban")

@@ -75,11 +75,59 @@
         </field>
     </record>
 
+    <!-- open_academy.session kanban view -->
+    <record id="model_name_view_kanban" model="ir.ui.view">
+        <field name="name">open_academy.session.view.kanban</field>
+        <field name="model">open_academy.session</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="course_id" string="Kanban Description">
+                <!-- Add your fields here -->
+                <field name="color"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.color.raw_value)}} oe_kanban_global_click_edit oe_semantic_html_override oe_kanban_card {{record.group_fancy==1 ? 'oe_kanban_card_fancy' : ''}}">
+                            <div class="oe_dropdown_kanban">
+                                <!-- dropdown menu -->
+                                <div class="oe_dropdown_toggle">
+                                    <i class="fa fa-bars fa-lg"/>
+                                    <ul class="oe_dropdown_menu">
+                                        <li>
+                                            <a type="delete">Eliminar</a>
+                                        </li>
+                                        <li>
+                                            <ul class="oe_kanban_colorpicker"
+                                                data-field="color"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="oe_clear"></div>
+                            </div>
+                            <div t-attf-class="oe_kanban_content">
+                                <!-- title -->
+                                Nombre de la sesión:
+                                <field name="name"/>
+                                <br/>
+                                Fecha de inicio:
+                                <field name="start_date"/>
+                                <br/>
+                                Duración:
+                                <field name="duration"/>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+                
+            </kanban>
+        </field>
+    </record>
+
+
+
 
     <record model="ir.actions.act_window" id="action_list_session">
         <field name="name">Sessions</field>
         <field name="res_model">open_academy.session</field>
-        <field name="view_mode">tree,form,calendar,graph</field>
+        <field name="view_mode">tree,form,calendar,graph,kanban</field>
     </record>
     
 </odoo>

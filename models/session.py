@@ -16,6 +16,7 @@ class open_academy(models.Model):
     duration = fields.Float(digits=(6, 2), help="Duration in days")
     seats = fields.Integer()
     active = fields.Boolean(default=True)
+    color = fields.Integer()
 
     instructor_id = fields.Many2one('res.partner', string="Instructor", domain=[('instructor', '=', True),('category_id.name', 'ilike', 'Teacher')])
     course_id = fields.Many2one('open_academy.course', ondelete="cascade", string="Curso", required=True)
@@ -26,6 +27,8 @@ class open_academy(models.Model):
     end_date = fields.Date(string="End Date", Store=True, compute="_get_end_date", inverse="_set_end_date")
 
     attendees_count = fields.Integer( string="Número de asistentes", compute="_get_attendees_count", store=True)
+
+   
 
     @api.depends('attendee_ids')
     def _get_attendees_count(self):
