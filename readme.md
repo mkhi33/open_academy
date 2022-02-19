@@ -129,3 +129,11 @@ Al seleccionar el instructor para una sesión , solo deben estar visibles los in
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/25.png "Cursos")
 
+# Ejercicio 14: Dominios más complejos
+
+Crear nuevas categorías de socios Profesor / Nivel 1 y Profesor / Nivel 2 . El instructor de una sesión puede ser un instructor o un profesor (de cualquier nivel).
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/26.png "Cursos")
+  ![Texto Alternativo]([img1]:../../screenshots/27.png "Cursos")
+  ![Texto Alternativo]([img1]:../../screenshots/28.png "Cursos")

@@ -7,9 +7,25 @@
         name="Open Academy" 
         sequence="10"
     />
+
+    <!-- Sub Menus-->
+
+    <menuitem 
+        id="main_menu_partner"
+        name="Partner" 
+        sequence="10"
+    />
     <menuitem 
         id="menu_open_academy"
         name="Open Academy" 
+        parent="main_menu_open_academy"
+        sequence="10"
+    />
+
+    <!-- Items de los submenus-->
+    <menuitem 
+        id="menu_manager_partner"
+        name="Manager Partner" 
         parent="main_menu_open_academy"
         sequence="10"
     />
@@ -32,8 +48,14 @@
     <menuitem 
         name="Partner" 
         id="menu_partner" 
-        parent="menu_open_academy"
+        parent="menu_manager_partner"
         action="action_list_partner" 
+    />
+    <menuitem 
+        id="menu_cat_partner" 
+        name="Category Partner"
+        parent="menu_manager_partner"
+        action="action_list_cat_partner"
     />
 
 </odoo>
