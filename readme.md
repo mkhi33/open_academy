@@ -170,3 +170,15 @@ Resultado:
 
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/33.png "Restricciones")
+
+# Ejercicio 19: Agregar restricciones de SQL
+
+Con la ayuda de la documentación de PostgreSQL , agregue las siguientes restricciones:
+
+- VERIFIQUE que la descripción del curso y el título del curso sean diferentes
+
+- Haz que el nombre del curso sea ÚNICO
+
+Resultado: 
+  ![Texto Alternativo]([img1]:../../screenshots/34.png "Restricciones Postgresql")
+  ![Texto Alternativo]([img1]:../../screenshots/35.png "Restricciones Postgresql")
