@@ -155,3 +155,13 @@ Resultado:
 
 - Agregue un campo activeen la clase Sesión y configure las sesiones como activas de forma predeterminada.
   ![Texto Alternativo]([img1]:../../screenshots/30.png "Valores predeterminados y objetos activos")
+
+# Ejercicio 17: Advertencia
+
+- Agregue un onchange explícito para advertir sobre valores no válidos, como un número negativo de asientos o más participantes que asientos.
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/31.png "Valores predeterminados y objetos activos")
+  ![Texto Alternativo]([img1]:../../screenshots/32.png "Valores predeterminados y objetos activos")
+
+
