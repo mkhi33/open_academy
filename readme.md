@@ -122,6 +122,4 @@ Resultado:
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/23.png "Cursos")
 
-# Ejercicio 13: Dominios en campos relacionales
 
-Al seleccionar el instructor para una sesión , solo deben estar visibles los instructores (socios con instructorel valor establecido en ).True
