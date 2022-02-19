@@ -240,3 +240,13 @@ Resultado:
   
 Resultado:
 ![Texto Alternativo]([img1]:../../screenshots/42.png "Mostrando un kanban")
+
+# Ejercicio 27: Añade control de acceso mediante la interfaz de Odoo
+
+Crea un nuevo usuario «John Smith». Luego cree un grupo «OpenAcademy / Session Read» con acceso de lectura al modelo de sesión .
+
+Resultado:
+
+![Texto Alternativo]([img1]:../../screenshots/43.png "Creando usuario")
+![Texto Alternativo]([img1]:../../screenshots/43.png "Creando grupo y asignando permisos")
+![Texto Alternativo]([img1]:../../screenshots/44.png "Agregando el usuario al grupo")
