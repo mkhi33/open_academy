@@ -10,7 +10,7 @@ Odoo proporciona un mecanismo para ayudar a configurar un nuevo módulo:
 
   - Creación del esqueleto:
   
-    ![Texto alternativo]([img1]:../../screenshots/1.png "Comando para crear el esqueleto del módulo")
+    ![Texto alternativo]([img1]:./open_academy/screenshots/1.png "Comando para crear el esqueleto del módulo")
     
 
 ## Ejercicio 2: Definir un módulo
