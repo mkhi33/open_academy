@@ -164,4 +164,9 @@ Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/31.png "Valores predeterminados y objetos activos")
   ![Texto Alternativo]([img1]:../../screenshots/32.png "Valores predeterminados y objetos activos")
 
+# Ejercicio 18: Agregar restricciones de Python
 
+ - Agregue una restricción que verifique que el instructor no esté presente en los asistentes de su propia sesión.
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/33.png "Restricciones")

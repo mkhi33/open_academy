@@ -3,7 +3,7 @@
 from email.policy import default
 from importlib.metadata import files
 import string
-from odoo import models, fields, api
+from odoo import models, fields, api, exceptions
 
 
 class open_academy(models.Model):
@@ -45,3 +45,9 @@ class open_academy(models.Model):
                     'message': "Increase seats or remove excess attendees",
                 },
             }
+    
+    @api.constrains('instructor_id', 'attendee_ids')
+    def _check_instructor_not_in_attendees(self):
+        for item in self:
+            if item.instructor_id and (item.instructor_id in item.attendee_ids):
+                raise exceptions.ValidationError("Error: A session's instructor can't be an attendee")
