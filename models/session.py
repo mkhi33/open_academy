@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from email.policy import default
+from importlib.metadata import files
 import string
 from odoo import models, fields, api
 
@@ -9,9 +11,10 @@ class open_academy(models.Model):
     _description = 'Sesion'
 
     name = fields.Char()
-    start_date = fields.Date()
+    start_date = fields.Date( default= fields.Date.today)
     duration = fields.Float(digits=(6, 2), help="Duration in days")
     seats = fields.Integer()
+    active = fields.Boolean(default=True)
 
     instructor_id = fields.Many2one('res.partner', string="Instructor", domain=[('instructor', '=', True),('category_id.name', 'ilike', 'Teacher')])
     course_id = fields.Many2one('open_academy.course', ondelete="cascade", string="Curso", required=True)

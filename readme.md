@@ -148,3 +148,10 @@ Resultado:
 
 Resultado:
   ![Texto Alternativo]([img1]:../../screenshots/29.png "Campos calculados")
+
+# Ejercicio 16: Objetos activos: valores predeterminados
+
+- Defina el valor predeterminado de start_date como hoy (ver Date).
+
+- Agregue un campo activeen la clase Sesión y configure las sesiones como activas de forma predeterminada.
+  ![Texto Alternativo]([img1]:../../screenshots/30.png "Valores predeterminados y objetos activos")
