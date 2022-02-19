@@ -203,4 +203,15 @@ Resultado:
 # Ejercicio 22: Vista de calendario
 
 Agregue una vista de calendario al modelo de sesión que permita al usuario ver los eventos asociados a Open Academy.
-  ![Texto Alternativo]([img1]:../../screenshots/38.png "Cambiando color a una sesión segun su duración")
+Resultado: 
+  ![Texto Alternativo]([img1]:../../screenshots/39.png "Cambiando color a una sesión segun su duración")
+
+# Ejercicio 23: Vistas de búsqueda
+
+- Agregue un botón para filtrar los cursos de los que el usuario actual es responsable en la vista de búsqueda de cursos. Hágalo seleccionado por defecto.
+
+- Agregue un botón para agrupar cursos por usuario responsable.
+  Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/40.png "Cambiando color a una sesión segun su duración")
+
+
