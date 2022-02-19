@@ -182,3 +182,13 @@ Con la ayuda de la documentación de PostgreSQL , agregue las siguientes restric
 Resultado: 
   ![Texto Alternativo]([img1]:../../screenshots/34.png "Restricciones Postgresql")
   ![Texto Alternativo]([img1]:../../screenshots/35.png "Restricciones Postgresql")
+
+# Ejercicio 20: Ejercicio 6: agregar una opción duplicada
+
+Dado que agregamos una restricción para la unicidad del nombre del curso, ya no es posible usar la función «duplicar» ( Formulario ‣ Duplicar ).
+
+Vuelva a implementar su propio método de «copia» que permite duplicar el objeto del curso, cambiando el nombre original a «Copia de [nombre original]».
+
+Resultado:
+  ![Texto Alternativo]([img1]:../../screenshots/36.png "Implementando un metodo de copia personalizado para los cursos")
+
