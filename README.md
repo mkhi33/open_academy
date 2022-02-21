@@ -266,3 +266,10 @@ Agrega una regla de registro para el Curso modelo y el grupo «OpenAcademy / Man
 
 Resultado: 
 ![Texto Alternativo](screenshots/46.png "Creando una nueva regla de registro")
+
+# Ejercicio 30: Definir el asistente
+
+Cree un modelo de asistente con una relación many2one con el modelo Session y una relación many2many con el modelo Partner .
+
+Resultado:
+![Texto Alternativo](screenshots/48.png "Creando una nueva regla de registro")
