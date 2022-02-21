@@ -273,3 +273,15 @@ Cree un modelo de asistente con una relación many2one con el modelo Session y u
 
 Resultado:
 ![Texto Alternativo](screenshots/48.png "Creando una nueva regla de registro")
+
+# Ejercicio 31: Iniciar el asistente
+
+- Defina una vista de formulario para el asistente.
+
+- Agregue la acción para iniciarla en el contexto del modelo de sesión .
+
+- Defina un valor predeterminado para el campo de sesión en el asistente; utilice el parámetro de contexto self._contextpara recuperar la sesión actual.
+
+Resultado:
+![Texto Alternativo](screenshots/49.png "Wizard")
+
