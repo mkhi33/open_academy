@@ -292,4 +292,12 @@ Agregue botones al asistente e implemente el método correspondiente para agrega
 Resultado:
 ![Texto Alternativo](screenshots/51.png "Wizard")
 
+# Ejercicio 33: Registrar asistentes a múltiples sesiones
+
+Modifique el modelo del asistente para que los asistentes puedan registrarse en varias sesiones.
+
+Resultado:
+![Texto Alternativo](screenshots/52.png "Wizard")
+
+
 

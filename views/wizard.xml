@@ -9,7 +9,7 @@
                 <sheet>
                     <group>
                         <!-- Add your fields here -->
-                        <field name="session_id"/>
+                        <field name="session_ids"/>
                         <field name="attendee_ids"/>
                     </group>
                 </sheet>
