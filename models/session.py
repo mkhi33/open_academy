@@ -5,7 +5,7 @@ from datetime import timedelta
 from email.policy import default
 from importlib.metadata import files
 import string
-from odoo import models, fields, api, exceptions
+from odoo import models, fields, api, exceptions, _
 
 class open_academy(models.Model):
     _name = 'open_academy.session'
@@ -67,15 +67,15 @@ class open_academy(models.Model):
         if( self.seats < 0 ):
             return {
                     'warning': {
-                        'title': "Incorrect 'seats' value",
-                        'message': "The number of available seats may not be negative",
+                        'title': _("Incorrect 'seats' value"),
+                        'message': _("The number of available seats may not be negative"),
                     },
             }
         if( self.seats < len(self.attendee_ids)):
             return {
                 'warning': {
-                    'title': "Too many attendees",
-                    'message': "Increase seats or remove excess attendees",
+                    'title': _("Too many attendees"),
+                    'message': _("Increase seats or remove excess attendees"),
                 },
             }
     
@@ -83,4 +83,4 @@ class open_academy(models.Model):
     def _check_instructor_not_in_attendees(self):
         for item in self:
             if item.instructor_id and (item.instructor_id in item.attendee_ids):
-                raise exceptions.ValidationError("Error: A session's instructor can't be an attendee")
+                raise exceptions.ValidationError(_("Error: A session's instructor can't be an attendee"))

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from email.policy import default
-from odoo import models, fields, api
+from odoo import models, fields, api, _
 class Wizard(models.TransientModel):
     _name = "open_academy.wizard"
 

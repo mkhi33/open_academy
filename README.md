@@ -299,5 +299,14 @@ Modifique el modelo del asistente para que los asistentes puedan registrarse en 
 Resultado:
 ![Texto Alternativo](screenshots/52.png "Wizard")
 
+# Ejercicio 34: Traducir un módulo
 
+Elija un segundo idioma para su instalación de Odoo. Traduzca su módulo usando las facilidades provistas por Odoo.
+
+Resultado:
+![Texto Alternativo](screenshots/53.png "Internacionalización")
+![Texto Alternativo](screenshots/54.png "Internacionalización")
+![Texto Alternativo](screenshots/55.png "Internacionalización")
+![Texto Alternativo](screenshots/56.png "Internacionalización")
+![Texto Alternativo](screenshots/57.png "Internacionalización")
 
