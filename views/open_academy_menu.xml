@@ -63,5 +63,12 @@
         parent="menu_open_academy"
         action="action_list_session_wizard"
     />
+    <menuitem 
+        id="menu_board" 
+        name="Session Board"
+        parent="menu_open_academy"
+        action="open_board_session"
+    />
+
 
 </odoo>

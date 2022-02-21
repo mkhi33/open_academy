@@ -310,3 +310,14 @@ Resultado:
 ![Texto Alternativo](screenshots/56.png "Internacionalización")
 ![Texto Alternativo](screenshots/57.png "Internacionalización")
 
+# Ejercicio 35: Crear un informe para el modelo de sesión
+
+Para cada sesión, debe mostrar el nombre de la sesión, su inicio y fin, y una lista de los asistentes a la sesión.
+
+
+# Ejercicio 36: Definir un tablero
+
+Defina un tablero que contenga la vista de gráfico que creó, la vista de calendario de sesiones y una vista de lista de los cursos (conmutable a una vista de formulario). Este tablero debe estar disponible a través de un elemento de menú en el menú y mostrarse automáticamente en el cliente web cuando se selecciona el menú principal de OpenAcademy.
+
+
+
