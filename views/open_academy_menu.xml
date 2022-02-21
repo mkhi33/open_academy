@@ -57,5 +57,11 @@
         parent="menu_manager_partner"
         action="action_list_cat_partner"
     />
+    <menuitem 
+        id="menu_wizard" 
+        name="Wizard"
+        parent="menu_open_academy"
+        action="action_list_session_wizard"
+    />
 
 </odoo>

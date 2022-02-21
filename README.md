@@ -285,3 +285,11 @@ Resultado:
 Resultado:
 ![Texto Alternativo](screenshots/49.png "Wizard")
 
+# Ejercicio 32: Registrar asistentes
+
+Agregue botones al asistente e implemente el método correspondiente para agregar asistentes a la sesión dada.
+
+Resultado:
+![Texto Alternativo](screenshots/51.png "Wizard")
+
+
