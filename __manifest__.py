@@ -33,7 +33,7 @@
         'views/partner.xml',
         'views/wizard.xml',
         'reports.xml',
-        'views/session_board.xml',
+        #'views/session_board.xml',
         'views/open_academy_menu.xml',
     ],
     # only loaded in demonstration mode
